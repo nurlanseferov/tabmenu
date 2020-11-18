@@ -1,0 +1,29 @@
+button{
+    &:focus{
+        outline: none;
+    }
+    border: none;
+    background-color: aqua;
+    padding:10px 40px;
+    border-radius: 25px;
+    
+
+}
+.col{
+    
+    border: 2px solid black;
+    p{
+        font-size: 40px;
+    }
+    #col2{
+        display: none;
+    }
+    #col3{
+        display: none;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
